@@ -1,0 +1,12 @@
+{
+  "name": "discord-bot-base-template",
+  "version": "1.0.0",
+  "description": "A template for typescript based discord bots",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts",
+    "build": "tsc && ts-node-dev ./src/compiled/index.js"
+  },
+  "author": "Fu Min Chun",
+  "license": "MIT"
+}
